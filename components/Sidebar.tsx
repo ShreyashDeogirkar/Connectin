@@ -33,14 +33,16 @@ const Sidebar = async ({ user }: { user: any }) => {
                 </div>
             </div>
             <div className='text-xs'>
-                <div className='w-full flex justify-between items-center px-3 py-2 hover:bg-gray-200 cursor-pointer'>
-                    <p>Post Impression</p>
-                    <p className='text-blue-500 font-bold'>88</p>
-                </div>
+
                 <div className='w-full flex justify-between items-center px-3 py-2 hover:bg-gray-200 cursor-pointer'>
                     <p>Posts</p>
                     <p className='text-blue-500 font-bold'>{posts.length}</p>
                 </div>
+                <div className='w-full flex justify-between items-center px-3 py-2 hover:bg-gray-200 cursor-pointer'>
+                    <p>Post Impression</p>
+                    <p className='text-blue-500 font-bold'>20</p>
+                </div>
+                
                 
             </div>
         </div>
